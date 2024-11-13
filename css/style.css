@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*quitarlo de anotacion para ver los margenes de los elementos*/
+    /* border: rgba(0, 0, 0, 1) 1px solid;  */
+    
+}
+
+body
+{
+ 
+}
+.coloreado{color: red;
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);}
+#tituloSakunara_y_foto
+{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row; 
+    background-color:rgba(191, 0, 255, 1) ;
+    align-items: center;
+    font-size:200%;
+    color:white;
+
+}
+#fotoLogo {
+    width: 150px;
+    height: 150px;
+    margin-left: 30%;
+}
+
+#abecedarioCaja
+{
+    display: flex;
+    justify-content: space-around;
+    font-size:220%;
+    color:white;
+    background-color: rgba(91, 0, 122, 1);
+}
+
+
+
+
+#fotoFondoInicio{
+    width: 100%;
+    height:auto;
+    background-color: rgba(220, 114, 255, 1);
+}
+
+#informaciónPortadaSakunara
+{
+    background-color: rgba(220, 114, 255, 1);
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-left: 10%;
+    font-size:200%;
+    width: 80%;
+    margin-bottom: 3%;
+}
+
+#TituloInformacionPortadaSakunara
+{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.pie1
+{
+    display: flex;
+    justify-content: space-around;
+    line-height: 300%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.letras{
+    cursor: pointer;
+    line-height: 150%;
+}
+
+
+
+
+
+#degradadofondo {
+    /* background: linear-gradient(to bottom, white, 20%, rgb(191, 0, 255));
+    height: 100vh; /* Ensures the gradient covers the full viewport height */
+    /*margin: 0; */
+}
+#Guardarjuegos
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.juegodiv
+{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgba(220, 114, 255, 1);
+}
+.imagenjuego1
+{
+    width: 96%;
+    height: 800px;
+    margin-left: 2%;
+    margin-top: 2%;
+border-radius: 10%;
+
+}
+.precioyTitulo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 200%;
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+.clase1
+{
+    display: flex;
+    margin: 3%;
+justify-content: center;
+}
+.clase2
+{
+font-size: 400%;
+height: 200%;
+text-align: center;
+margin-top: 3%;
+font-weight: bold;
+}
+.clase3
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.imagenjuego11
+{
+    border-radius: 10%;
+}
+.clase5
+{
+    display: flex;
+    justify-content: space-around;
+}
+.clase6
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 30%;
+}
+.clase8
+{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    font-size: 200%;
+}
+.clase9
+{
+    font-size: 150%;
+}
+.clase10
+{
+    display: flex;
+    justify-content: end;
+    margin: 1%;
+}
+.clase11
+{
+    background-color: rgba(91, 0, 122, 1);
+    color: white;
+    font-size: 200%;
+    line-height: 150%;
+}
+.estrellasClase
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.estrellasClase1
+{
+    width: 50%;
+    height: 100px;
+}
